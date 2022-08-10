@@ -8,9 +8,9 @@ The system is backed by a SQL Server database that keeps track of a few things. 
 
 ```mermaid
 erDiagram
-    asset }|--o| deal
-    deal ||--|{ customer_deal
-    customer_deal }o--|| customer
+    asset }|--o| deal : a
+    deal ||--|{ customer_deal : a
+    customer_deal }o--|| customer : a
 ```
 
 ## Docker
