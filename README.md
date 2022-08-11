@@ -8,14 +8,16 @@ changes to the code as instructed and open a pull request pointing to `master` b
 Feel free to change anything you see fit about the project, including DB structure, the Dockerfile and the Maven config.
 Refactoring of code is __heavily encouraged__, as you may notice some sub-optimality in code quality throughout.
 
+This test is expected to take 1-2 hours.
+
 # Asset Recommendation System
 
 This project is a system that holds information about customers and any loans that they have taken out, and recommends
 any assets to them that might be a good fit.
 
 It is a Spring Boot (1.4) project, built using Maven (3.8.2), with a SQL Server database to persist information about customers,
-assets and current loans, or deals.  A Dockerfile describing a simple DB image is provided as part of the project.  
-This sets up the database structure, and adds a few records to the DB.
+assets and current loans, or deals.  A Dockerfile describing a simple DB image is provided as part of the project.  This sets 
+up the database structure, and adds a few records to the DB.
 
 ## DB Structure
 
