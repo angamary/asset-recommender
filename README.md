@@ -4,6 +4,7 @@ of the test, and the project that you'll be working with.
 
 When you are ready to begin, make a fork of this repository (https://github.com/SimplyFinance/asset-recommender), make any
 changes to the code as instructed and open a pull request pointing to `master` branch once you have completed the test.
+Please include your name in the title of the PR.
 
 Feel free to change anything you see fit about the project, including DB structure, the Dockerfile and the Maven config.
 Refactoring of code is __heavily encouraged__, as you may notice some sub-optimality in code quality throughout.
@@ -74,9 +75,9 @@ customer IDs to a list of assets that are recommended for them, on that date.
 
 ## Docker
 
-In order to build and run the Docker image, navigate to `asset-recommender/src/main/resources` and run 
+In order to build and run the Docker image, navigate to `asset-recommender/src/main/resources` and run
 
-`docker run -it -p 127.0.0.1:1433:1433/tcp $(docker build -q .)`
+`docker build -t asset-recommender . && docker run -it -p 127.0.0.1:1433:1433/tcp asset-recommender`
 
 ## Maven
 

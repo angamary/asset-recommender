@@ -6,7 +6,7 @@
 
   <groupId>finance.simply</groupId>
   <artifactId>asset-recommender</artifactId>
-  <version>development-SNAPSHOT</version>
+  <version>1.0.0</version>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -85,6 +85,7 @@
 
 
   <build>
+    <finalName>${project.artifactId}</finalName>
     <plugins>
       <plugin>
         <groupId>org.springframework.boot</groupId>
